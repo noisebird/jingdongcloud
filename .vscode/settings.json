@@ -1,0 +1,12 @@
+{
+    "background.enabled": false,
+
+    // Use default images.使用默认图片
+    "background.useDefault": false,
+
+    // Your custom Images(Max length is 3). 自己定制背景图，最多3个
+    "background.customImages": [
+        "file:///D:/1.jpg"
+
+    ]
+}

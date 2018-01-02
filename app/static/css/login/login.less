@@ -1,0 +1,113 @@
+.login-page {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    color: white; // width: 550px;
+    height: 460px;
+    background: -webkit-linear-gradient(top, #f3f3f3, rgb(196, 196, 196));
+    header {
+        font-size: 44px;
+        text-align: center;
+        color: white;
+        margin-bottom: 80px;
+        letter-spacing: 8px;
+        background: -webkit-linear-gradient(top, #c1241c, #071a23 50%, #3d4fb5 51%, #072838);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+#login {
+    width: 400px;
+    margin: auto;
+    input {
+        color: rgba(45, 23, 23, 0.92);
+        width: 400px;
+        height: 47px;
+        outline: none;
+        padding-left: 60px;
+        border: 1px solid #199ad4;
+        font-size: 16px;
+        margin-bottom: 20px;
+        background-color: rgba(183, 182, 182, 0.2);
+        border-radius: 2px;
+    }
+    .error {
+        border: 1px solid red;
+    }
+    .error:hover {
+        border: 1px solid red;
+    }
+     :-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: rgba(53, 51, 51, 0.705);
+        opacity: 1;
+    }
+     ::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: rgba(53, 51, 51, 0.705);
+        opacity: 1;
+    }
+    input:-ms-input-placeholder {
+        color: rgba(53, 51, 51, 0.705);
+        opacity: 1;
+    }
+    input::-webkit-input-placeholder {
+        color: rgba(53, 51, 51, 0.705);
+        opacity: 1;
+    }
+    input:hover {
+        border: 1px solid #46b9ea;
+    }
+    .login-btn {
+        height: 50px;
+        width: 400px;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+        cursor: pointer; // letter-spacing: 20px;
+        background: -webkit-linear-gradient(top, #3a698e, #195171);
+    }
+    .login-btn:hover {
+        background: -webkit-linear-gradient(top, #196ba9, #0f6594);
+    }
+    .login-identify {
+        position: relative;
+        i {
+            display: inline-block;
+            position: absolute;
+            left: 1px;
+            top: 1px;
+            width: 50px;
+            height: 45px;
+            background-color: #395e77;
+        }
+        .username-icon {
+            background-image: url('../../images/username.png');
+            background-repeat: no-repeat;
+            background-position: 8px 6px;
+        }
+        .password-icon {
+            background-image: url('../../images/password.png');
+            background-repeat: no-repeat;
+            background-position: 8px 6px;
+        }
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.ant-tooltip-inner {
+    background-color: rgba(230, 6, 6, 0.75);
+}
+
+.ant-tooltip-placement-right .ant-tooltip-arrow,
+.ant-tooltip-placement-rightTop .ant-tooltip-arrow,
+.ant-tooltip-placement-rightBottom .ant-tooltip-arrow {
+    border-right-color: rgba(232, 10, 10, 0.75);
+}
